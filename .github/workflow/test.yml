@@ -1,0 +1,12 @@
+name: Hola mundo
+
+on: [push]
+
+jobs: 
+    hola:
+        runs-on: macos-latest
+
+        steps:
+        - name: Hola mundo
+          run: echo "hola Xavier"
+
